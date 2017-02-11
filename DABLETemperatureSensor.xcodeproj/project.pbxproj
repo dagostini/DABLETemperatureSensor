@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7757D1C51E4E771000C23217 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7757D1C41E4E771000C23217 /* AppDelegate.swift */; };
+		7757D1C71E4E771000C23217 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7757D1C61E4E771000C23217 /* ViewController.swift */; };
+		7757D1CA1E4E771000C23217 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7757D1C81E4E771000C23217 /* Main.storyboard */; };
+		7757D1CC1E4E771000C23217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7757D1CB1E4E771000C23217 /* Assets.xcassets */; };
+		7757D1CF1E4E771000C23217 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7757D1CD1E4E771000C23217 /* LaunchScreen.storyboard */; };
+		7757D1D71E4F475300C23217 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7757D1D61E4F475300C23217 /* BLEManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7757D1C11E4E771000C23217 /* DABLETemperatureSensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DABLETemperatureSensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7757D1C41E4E771000C23217 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7757D1C61E4E771000C23217 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7757D1C91E4E771000C23217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7757D1CB1E4E771000C23217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7757D1CE1E4E771000C23217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7757D1D01E4E771000C23217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7757D1D61E4F475300C23217 /* BLEManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7757D1BE1E4E771000C23217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7757D1B81E4E771000C23217 = {
+			isa = PBXGroup;
+			children = (
+				7757D1C31E4E771000C23217 /* DABLETemperatureSensor */,
+				7757D1C21E4E771000C23217 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7757D1C21E4E771000C23217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7757D1C11E4E771000C23217 /* DABLETemperatureSensor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7757D1C31E4E771000C23217 /* DABLETemperatureSensor */ = {
+			isa = PBXGroup;
+			children = (
+				7757D1C41E4E771000C23217 /* AppDelegate.swift */,
+				7757D1C61E4E771000C23217 /* ViewController.swift */,
+				7757D1C81E4E771000C23217 /* Main.storyboard */,
+				7757D1CB1E4E771000C23217 /* Assets.xcassets */,
+				7757D1CD1E4E771000C23217 /* LaunchScreen.storyboard */,
+				7757D1D01E4E771000C23217 /* Info.plist */,
+				7757D1D61E4F475300C23217 /* BLEManager.swift */,
+			);
+			path = DABLETemperatureSensor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7757D1C01E4E771000C23217 /* DABLETemperatureSensor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7757D1D31E4E771000C23217 /* Build configuration list for PBXNativeTarget "DABLETemperatureSensor" */;
+			buildPhases = (
+				7757D1BD1E4E771000C23217 /* Sources */,
+				7757D1BE1E4E771000C23217 /* Frameworks */,
+				7757D1BF1E4E771000C23217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DABLETemperatureSensor;
+			productName = DABLETemperatureSensor;
+			productReference = 7757D1C11E4E771000C23217 /* DABLETemperatureSensor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7757D1B91E4E771000C23217 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Dejan;
+				TargetAttributes = {
+					7757D1C01E4E771000C23217 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V7FR7N29C2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 7757D1BC1E4E771000C23217 /* Build configuration list for PBXProject "DABLETemperatureSensor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7757D1B81E4E771000C23217;
+			productRefGroup = 7757D1C21E4E771000C23217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7757D1C01E4E771000C23217 /* DABLETemperatureSensor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7757D1BF1E4E771000C23217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7757D1CF1E4E771000C23217 /* LaunchScreen.storyboard in Resources */,
+				7757D1CC1E4E771000C23217 /* Assets.xcassets in Resources */,
+				7757D1CA1E4E771000C23217 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7757D1BD1E4E771000C23217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7757D1C71E4E771000C23217 /* ViewController.swift in Sources */,
+				7757D1D71E4F475300C23217 /* BLEManager.swift in Sources */,
+				7757D1C51E4E771000C23217 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7757D1C81E4E771000C23217 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7757D1C91E4E771000C23217 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7757D1CD1E4E771000C23217 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7757D1CE1E4E771000C23217 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7757D1D11E4E771000C23217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7757D1D21E4E771000C23217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7757D1D41E4E771000C23217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V7FR7N29C2;
+				INFOPLIST_FILE = DABLETemperatureSensor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = agostini.tech.DABLETemperatureSensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7757D1D51E4E771000C23217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V7FR7N29C2;
+				INFOPLIST_FILE = DABLETemperatureSensor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = agostini.tech.DABLETemperatureSensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7757D1BC1E4E771000C23217 /* Build configuration list for PBXProject "DABLETemperatureSensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7757D1D11E4E771000C23217 /* Debug */,
+				7757D1D21E4E771000C23217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7757D1D31E4E771000C23217 /* Build configuration list for PBXNativeTarget "DABLETemperatureSensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7757D1D41E4E771000C23217 /* Debug */,
+				7757D1D51E4E771000C23217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7757D1B91E4E771000C23217 /* Project object */;
+}
