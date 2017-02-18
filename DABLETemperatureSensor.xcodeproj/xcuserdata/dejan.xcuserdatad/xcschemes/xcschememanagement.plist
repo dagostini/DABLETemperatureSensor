@@ -4,6 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>DABLETemperature (Complication).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>DABLETemperature (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>DABLETemperature.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>DABLETemperatureSensor.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +28,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>7757D1C01E4E771000C23217</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7757D1D91E513F0200C23217</key>
 		<dict>
 			<key>primary</key>
 			<true/>

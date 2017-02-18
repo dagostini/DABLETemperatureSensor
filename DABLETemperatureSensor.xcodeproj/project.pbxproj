@@ -13,7 +13,60 @@
 		7757D1CC1E4E771000C23217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7757D1CB1E4E771000C23217 /* Assets.xcassets */; };
 		7757D1CF1E4E771000C23217 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7757D1CD1E4E771000C23217 /* LaunchScreen.storyboard */; };
 		7757D1D71E4F475300C23217 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7757D1D61E4F475300C23217 /* BLEManager.swift */; };
+		7757D1DE1E513F0300C23217 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7757D1DC1E513F0300C23217 /* Interface.storyboard */; };
+		7757D1E01E513F0300C23217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7757D1DF1E513F0300C23217 /* Assets.xcassets */; };
+		7757D1E71E513F0300C23217 /* DABLETemperature Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7757D1E61E513F0300C23217 /* DABLETemperature Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7757D1EE1E513F0300C23217 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7757D1ED1E513F0300C23217 /* InterfaceController.swift */; };
+		7757D1F01E513F0300C23217 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7757D1EF1E513F0300C23217 /* ExtensionDelegate.swift */; };
+		7757D1F41E513F0300C23217 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7757D1F31E513F0300C23217 /* ComplicationController.swift */; };
+		7757D1F61E513F0300C23217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7757D1F51E513F0300C23217 /* Assets.xcassets */; };
+		7757D1FA1E513F0300C23217 /* DABLETemperature.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7757D1DA1E513F0200C23217 /* DABLETemperature.app */; };
+		7757D2281E5669DA00C23217 /* WatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7757D2271E5669D900C23217 /* WatchManager.swift */; };
+		7757D22A1E5672B100C23217 /* WatchConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7757D2291E5672B100C23217 /* WatchConstants.swift */; };
+		7757D22B1E56730400C23217 /* WatchConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7757D2291E5672B100C23217 /* WatchConstants.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7757D1E81E513F0300C23217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7757D1B91E4E771000C23217 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7757D1E51E513F0300C23217;
+			remoteInfo = "DABLETemperature Extension";
+		};
+		7757D1F81E513F0300C23217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7757D1B91E4E771000C23217 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7757D1D91E513F0200C23217;
+			remoteInfo = DABLETemperature;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7757D2001E513F0300C23217 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7757D1E71E513F0300C23217 /* DABLETemperature Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7757D2021E513F0300C23217 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7757D1FA1E513F0300C23217 /* DABLETemperature.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7757D1C11E4E771000C23217 /* DABLETemperatureSensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DABLETemperatureSensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +77,30 @@
 		7757D1CE1E4E771000C23217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7757D1D01E4E771000C23217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7757D1D61E4F475300C23217 /* BLEManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		7757D1DA1E513F0200C23217 /* DABLETemperature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DABLETemperature.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7757D1DD1E513F0300C23217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		7757D1DF1E513F0300C23217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7757D1E11E513F0300C23217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7757D1E61E513F0300C23217 /* DABLETemperature Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DABLETemperature Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7757D1EC1E513F0300C23217 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		7757D1ED1E513F0300C23217 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		7757D1EF1E513F0300C23217 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		7757D1F31E513F0300C23217 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		7757D1F51E513F0300C23217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7757D1F71E513F0300C23217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7757D2271E5669D900C23217 /* WatchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchManager.swift; sourceTree = "<group>"; };
+		7757D2291E5672B100C23217 /* WatchConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7757D1BE1E4E771000C23217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7757D1E31E513F0300C23217 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				7757D1C31E4E771000C23217 /* DABLETemperatureSensor */,
+				7757D1DB1E513F0300C23217 /* DABLETemperature */,
+				7757D1EA1E513F0300C23217 /* DABLETemperature Extension */,
 				7757D1C21E4E771000C23217 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				7757D1C11E4E771000C23217 /* DABLETemperatureSensor.app */,
+				7757D1DA1E513F0200C23217 /* DABLETemperature.app */,
+				7757D1E61E513F0300C23217 /* DABLETemperature Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,8 +140,41 @@
 				7757D1CD1E4E771000C23217 /* LaunchScreen.storyboard */,
 				7757D1D01E4E771000C23217 /* Info.plist */,
 				7757D1D61E4F475300C23217 /* BLEManager.swift */,
+				7757D2271E5669D900C23217 /* WatchManager.swift */,
+				7757D2291E5672B100C23217 /* WatchConstants.swift */,
 			);
 			path = DABLETemperatureSensor;
+			sourceTree = "<group>";
+		};
+		7757D1DB1E513F0300C23217 /* DABLETemperature */ = {
+			isa = PBXGroup;
+			children = (
+				7757D1DC1E513F0300C23217 /* Interface.storyboard */,
+				7757D1DF1E513F0300C23217 /* Assets.xcassets */,
+				7757D1E11E513F0300C23217 /* Info.plist */,
+			);
+			path = DABLETemperature;
+			sourceTree = "<group>";
+		};
+		7757D1EA1E513F0300C23217 /* DABLETemperature Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7757D1ED1E513F0300C23217 /* InterfaceController.swift */,
+				7757D1EF1E513F0300C23217 /* ExtensionDelegate.swift */,
+				7757D1F31E513F0300C23217 /* ComplicationController.swift */,
+				7757D1F51E513F0300C23217 /* Assets.xcassets */,
+				7757D1F71E513F0300C23217 /* Info.plist */,
+				7757D1EB1E513F0300C23217 /* Supporting Files */,
+			);
+			path = "DABLETemperature Extension";
+			sourceTree = "<group>";
+		};
+		7757D1EB1E513F0300C23217 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7757D1EC1E513F0300C23217 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,15 +187,51 @@
 				7757D1BD1E4E771000C23217 /* Sources */,
 				7757D1BE1E4E771000C23217 /* Frameworks */,
 				7757D1BF1E4E771000C23217 /* Resources */,
+				7757D2021E513F0300C23217 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7757D1F91E513F0300C23217 /* PBXTargetDependency */,
 			);
 			name = DABLETemperatureSensor;
 			productName = DABLETemperatureSensor;
 			productReference = 7757D1C11E4E771000C23217 /* DABLETemperatureSensor.app */;
 			productType = "com.apple.product-type.application";
+		};
+		7757D1D91E513F0200C23217 /* DABLETemperature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7757D2011E513F0300C23217 /* Build configuration list for PBXNativeTarget "DABLETemperature" */;
+			buildPhases = (
+				7757D1D81E513F0200C23217 /* Resources */,
+				7757D2001E513F0300C23217 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7757D1E91E513F0300C23217 /* PBXTargetDependency */,
+			);
+			name = DABLETemperature;
+			productName = DABLETemperature;
+			productReference = 7757D1DA1E513F0200C23217 /* DABLETemperature.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		7757D1E51E513F0300C23217 /* DABLETemperature Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7757D1FF1E513F0300C23217 /* Build configuration list for PBXNativeTarget "DABLETemperature Extension" */;
+			buildPhases = (
+				7757D1E21E513F0300C23217 /* Sources */,
+				7757D1E31E513F0300C23217 /* Frameworks */,
+				7757D1E41E513F0300C23217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DABLETemperature Extension";
+			productName = "DABLETemperature Extension";
+			productReference = 7757D1E61E513F0300C23217 /* DABLETemperature Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -107,6 +253,21 @@
 							};
 						};
 					};
+					7757D1D91E513F0200C23217 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V7FR7N29C2;
+						ProvisioningStyle = Automatic;
+					};
+					7757D1E51E513F0300C23217 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V7FR7N29C2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes.watchos.extension = {
+								enabled = 0;
+							};
+						};
+					};
 				};
 			};
 			buildConfigurationList = 7757D1BC1E4E771000C23217 /* Build configuration list for PBXProject "DABLETemperatureSensor" */;
@@ -123,6 +284,8 @@
 			projectRoot = "";
 			targets = (
 				7757D1C01E4E771000C23217 /* DABLETemperatureSensor */,
+				7757D1D91E513F0200C23217 /* DABLETemperature */,
+				7757D1E51E513F0300C23217 /* DABLETemperature Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -138,6 +301,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7757D1D81E513F0200C23217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7757D1E01E513F0300C23217 /* Assets.xcassets in Resources */,
+				7757D1DE1E513F0300C23217 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7757D1E41E513F0300C23217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7757D1F61E513F0300C23217 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -148,10 +328,36 @@
 				7757D1C71E4E771000C23217 /* ViewController.swift in Sources */,
 				7757D1D71E4F475300C23217 /* BLEManager.swift in Sources */,
 				7757D1C51E4E771000C23217 /* AppDelegate.swift in Sources */,
+				7757D22A1E5672B100C23217 /* WatchConstants.swift in Sources */,
+				7757D2281E5669DA00C23217 /* WatchManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7757D1E21E513F0300C23217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7757D1F41E513F0300C23217 /* ComplicationController.swift in Sources */,
+				7757D1F01E513F0300C23217 /* ExtensionDelegate.swift in Sources */,
+				7757D22B1E56730400C23217 /* WatchConstants.swift in Sources */,
+				7757D1EE1E513F0300C23217 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7757D1E91E513F0300C23217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7757D1E51E513F0300C23217 /* DABLETemperature Extension */;
+			targetProxy = 7757D1E81E513F0300C23217 /* PBXContainerItemProxy */;
+		};
+		7757D1F91E513F0300C23217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7757D1D91E513F0200C23217 /* DABLETemperature */;
+			targetProxy = 7757D1F81E513F0300C23217 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7757D1C81E4E771000C23217 /* Main.storyboard */ = {
@@ -168,6 +374,14 @@
 				7757D1CE1E4E771000C23217 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7757D1DC1E513F0300C23217 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7757D1DD1E513F0300C23217 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -292,6 +506,76 @@
 			};
 			name = Release;
 		};
+		7757D1FB1E513F0300C23217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V7FR7N29C2;
+				IBSC_MODULE = DABLETemperature_Extension;
+				INFOPLIST_FILE = DABLETemperature/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = agostini.tech.DABLETemperatureSensor.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		7757D1FC1E513F0300C23217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V7FR7N29C2;
+				IBSC_MODULE = DABLETemperature_Extension;
+				INFOPLIST_FILE = DABLETemperature/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = agostini.tech.DABLETemperatureSensor.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		7757D1FD1E513F0300C23217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = V7FR7N29C2;
+				INFOPLIST_FILE = "DABLETemperature Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = agostini.tech.DABLETemperatureSensor.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		7757D1FE1E513F0300C23217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = V7FR7N29C2;
+				INFOPLIST_FILE = "DABLETemperature Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = agostini.tech.DABLETemperatureSensor.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -309,6 +593,23 @@
 			buildConfigurations = (
 				7757D1D41E4E771000C23217 /* Debug */,
 				7757D1D51E4E771000C23217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7757D1FF1E513F0300C23217 /* Build configuration list for PBXNativeTarget "DABLETemperature Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7757D1FD1E513F0300C23217 /* Debug */,
+				7757D1FE1E513F0300C23217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7757D2011E513F0300C23217 /* Build configuration list for PBXNativeTarget "DABLETemperature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7757D1FB1E513F0300C23217 /* Debug */,
+				7757D1FC1E513F0300C23217 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

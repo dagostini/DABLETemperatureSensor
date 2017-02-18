@@ -10,18 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var bleManager: BLEManagable = BLEManager()
+    var bleManager: BLEManagable?
     
     @IBOutlet weak var temperatureLabel: UILabel!
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        bleManager.addDelegate(self)
+        bleManager?.addDelegate(self)
     }
     
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
-        bleManager.removeDelegate(self)
+        bleManager?.removeDelegate(self)
     }
 }
 
